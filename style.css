@@ -1,0 +1,42 @@
+nav{
+	background-color: whitesmoke;
+	padding: 10px 0px;
+}
+footer,
+.col-1{
+	background-color: black;
+	color: white;
+	
+}
+body{
+	text-align: center;
+}
+header,
+.banner{
+		background-color: skyblue;
+}
+.left img{
+	float:left;
+	border-radius: 10px;
+	flex-wrap: wrap;
+}
+.right {
+	float:right;
+}
+.vvv{
+	display: flex;
+	width: 90%;
+}
+@media(max-width:578px){
+	/*responsive to small devices*/
+}
+@media(min-width:578px and max-width:786px){
+	/*responsive to medium devices*/
+}
+@media(min-width:786px and max-width:992px){
+	/*responsive to large devices*/
+}
+@media(min-width:1200px){
+	/*responsive to desktop devices*/
+}
+
